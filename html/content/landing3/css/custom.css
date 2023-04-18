@@ -1,3 +1,6 @@
+body {
+    font-family: FFZwoProRegular,Verdana,sans-serif !important;
+}
 #header {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -7,6 +10,9 @@
     padding: 0;
       position: relative;
       height: 100%;
+}
+.header-transparent #Top_bar #logo {
+    height: 100px !important;
 }
 .logo-wrapper {
 
@@ -30,7 +36,6 @@
 }
 .hero-image {
     position: relative;
-
     height: 100vh;
     width: 100%;
     background-position: 50% 100%;
@@ -44,21 +49,24 @@
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
     background-color: rgba(0, 0, 0, .3);
 }
 .content {
     padding: 60px;
-    max-width: 1200px;
+    max-width: 1000px;
+    text-align: left;
+    margin-bottom: 200px;
+    margin-left: 100px;
 }
 
 .content-header {
     font-family: 'lato',Helvetica,Arial,sans-serif;
-    font-size: 60px;
+    font-size: 100px;
     color: white;
     letter-spacing: 3px;
-    line-height: 60px;
+    line-height: 100px;
 }
 
 /* bootstrap-carousel */
@@ -82,3 +90,50 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .swiper-pagination span {
+    background-color: white;
+  }
+
+  .swiper-button-prev {
+    color: white;
+  }
+  .swiper-button-next {
+    color: white;
+}
+.swiper-button-next:after {
+    color: white;
+}
+.swiper-button-prev:after {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 1239px) {
+    .content-header {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-order {
+        order: 2;
+    }
+}
+
+
+
+/* defaults */
+.mw-100 {
+    max-width: 100px !important;
+}
