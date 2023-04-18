@@ -1,6 +1,8 @@
 body {
     font-family: FFZwoProRegular,Verdana,sans-serif !important;
+    font-size: 16px !important;
 }
+
 #header {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -11,17 +13,13 @@ body {
       position: relative;
       height: 100%;
 }
+
 .header-transparent #Top_bar #logo {
     height: 100px !important;
 }
-.logo-wrapper {
 
-}
-#logo {
-
-}
-.logo-main {
-    
+#Top_bar .menu>li>a {
+    color: white ;
 }
 
 .hero {
