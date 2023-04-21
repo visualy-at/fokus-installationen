@@ -1247,10 +1247,6 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 }
 @media only screen and ( max-width: 767px) {
 	body:not(.template-slider) #Header {
-		min-height: ;
-	}
-	#Subheader {
-		padding: ;
 	}
 }
 @media only screen and (min-width: 1240px) {
@@ -2969,17 +2965,17 @@ form input.display-none {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and min-width: 768px and max-width: 959px {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and min-width: 480px and max-width: 767px {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 	.the-icons.span3 {
 		width: 50%;
 	}
 }
-@media only screen and max-width: 479px {
+@media only screen and (max-width: 479px) {
 	.the-icons.span3 {
 		width: 100%;
 	}

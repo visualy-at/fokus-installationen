@@ -1,6 +1,9 @@
 body {
     font-family: FFZwoProRegular,Verdana,sans-serif !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
+}
+p {
+    line-height: 1.4em;
 }
 
 #header {
@@ -20,6 +23,27 @@ body {
 
 #Top_bar .menu>li>a {
     color: white ;
+}
+.notdienst {
+    background-color: orange;
+    border-radius: 40px;
+}
+.notdienst > a {
+    width: 100px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+.notdienst > a > img {
+    width: 30px;
+    height: 30px !important;
+}
+.header-transparent #Top_bar .menu>li.notdienst {
+    margin-top: 10px;
+}
+#Top_bar.is-sticky .menu>li.notdienst {
+    margin-top: 0px;
 }
 
 .hero {
@@ -67,6 +91,7 @@ body {
     line-height: 100px;
 }
 
+
 /* bootstrap-carousel */
 .swiper {
     width: 100%;
@@ -106,12 +131,12 @@ body {
     color: white;
 }
 
-
-
-
-
-
-
+/*cards */
+.service-card {
+}
+.feature_box_wrapper {
+    min-height: 138px;
+}
 
 
 
@@ -124,12 +149,35 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    .mobile-order {
+    .header-transparent #Top_bar #logo {
+        height: 60px !important;
+    }
+    .mobile-order-1 {
+        order: 1;
+    }
+    .mobile-order-2 {
         order: 2;
     }
+    .content {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .content-header {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .column-button {
+        margin-top: 20px;
+    }
+    .column_attr {
+        padding: 0 !important;
+    }
+    .hero-overlay {
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
-
-
 
 /* defaults */
 .mw-100 {
