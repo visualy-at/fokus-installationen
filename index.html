@@ -1,122 +1,818 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head>
-    <title>Fokus-Installationen</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
-    <!--===============================================================================================-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="vendor/bootstrap/css/bootstrap.min.css"
-    />
-    <!--===============================================================================================-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
-    />
-    <!--===============================================================================================-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="fonts/iconic/css/material-design-iconic-font.min.css"
-    />
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
-    <!--===============================================================================================-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="vendor/select2/select2.min.css"
-    />
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/util.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <!--===============================================================================================-->
-  </head>
-  <body>
-    <div
-      class="bg-img1 overlay1 size1 flex-w flex-c-m p-t-55 p-b-55 p-l-15 p-r-15"
-    >
-      <div class="wsize1">
-        <div class="flex-w">
-          <img style="margin: auto" src="logo.png" alt="Logo" width="300px" />
-        </div>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-        <h3 class="l1-txt1 txt-center p-b-22">Coming Soon</h3>
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>FOKUS Installationen | Schwaz</title>
+	<meta name="keywords" content="Fokus, Installationen, Schwaz, Installateure Schwaz, Installateure, Installation, Tirol">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="html/content/landing3/images/favicon.ico">
+	<!-- FONTS -->
+	<link rel='stylesheet'
+		href='http://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900'>
+	<link rel='stylesheet'
+		href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,400italic,500,600,700,700italic,900'>
+	<!-- Bootstrap core CSS -->
+	<link href="html/css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS -->
+	<link rel='stylesheet' href='html/content/landing3/css/custom.css'>
+	<link rel='stylesheet' href='html/content/landing3/css/structure.css'>
+	<link rel='stylesheet' href='html/content/landing3/css/fokus.css'>
+	<!-- Revolution Slider -->
+	<link rel="stylesheet" type="text/css" href="html/plugins/rs-plugin/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="html/plugins/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="html/plugins/rs-plugin/css/navigation.css">
+	<!-- swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-        <p class="txt-center m2-txt1 p-b-67">
-          Unsere Website befindet sich derzeit im Aufbau.
-        </p>
+</head>
 
-        <!-- <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
-          <div class="flex-col-c-m wsize2 m-b-20">
-            <span class="l1-txt2 p-b-4 days">35</span>
-            <span class="m2-txt2">Tag(e)</span>
-          </div>
+<body
+	class="home page template-slider style-simple button-custom layout-full-width one-page no-content-padding header-transparent header-fw sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80-1 menuo-right menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-sticky">
+	<div id="Wrapper">
+		<div id="Header_wrapper">
+			<header id="Header">
+				<div id="Top_bar">
+					<div class="container">
+						<div class="column one">
+							<div class="top_bar_left clearfix">
+								<div class="logo">
+									<a id="logo" href="index.html" title="FOKUS Installationen"
+										data-height="100" data-padding="15">
+										<img class="logo-main scale-with-grid"
+											src="html/content/landing3/images/fokus_logo.png" data-height="35">
+										<img class="logo-sticky scale-with-grid"
+											src="html/content/landing3/images/fokus_logo.png" data-height="35">
+										<img class="logo-mobile scale-with-grid"
+											src="html/content/landing3/images/fokus_logo.png" data-height="35">
+										<img class="logo-mobile-sticky scale-with-grid" style="padding: 10px;"
+											src="html/content/landing3/images/fokus_logo.png" data-height="35">
+									</a>
+								</div>
+								<div class="menu_wrapper">
+									<nav id="menu">
+										<ul id="menu-main-menu" class="menu menu-main">
+											<li> <a href="#Header_wrapper"><span>Startseite</span></a>
+											</li>
+											<li> <a href="#leistungen"><span>Unsere Leistungen</span></a>
+											</li>
+											<!-- <li> <a href="#about"><span>Über Uns</span></a>
+											</li> -->
+											<li> <a href="#faq"><span>FAQ</span></a>
+											</li>
+											<li> <a href="#contact"><span>Kontakt</span></a>
+											</li>
+											<li class="notdienst"><a href="tel:0664358088"><img src="./html/content/landing3/images/notdienst.png" alt="Notdienst"></a>
+											</li>
+										</ul>
+									</nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-          <span class="l1-txt2 p-b-22">:</span>
 
-          <div class="flex-col-c-m wsize2 m-b-20">
-            <span class="l1-txt2 p-b-4 hours">17</span>
-            <span class="m2-txt2">Stunde(n)</span>
-          </div>
 
-          <span class="l1-txt2 p-b-22 respon2">:</span>
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
 
-          <div class="flex-col-c-m wsize2 m-b-20">
-            <span class="l1-txt2 p-b-4 minutes">50</span>
-            <span class="m2-txt2">Minute(n)</span>
-          </div>
+						<div class="swiper-slide">
+							<img class="d-block w-100" src="./html/content/landing3/images/slide_3.png" alt="Second slide"">
+							<div class=" hero-overlay">
+							<div class="content">
+								<h2 class="content-header">3D-Planung für Ihr perfektes Badezimmer</h2>
+							</div>
+						</div>
+					</div>
 
-          <span class="l1-txt2 p-b-22">:</span>
+					<div class="swiper-slide">
+						<img class="d-block w-100" src="./html/content/landing3/images/slider-bg3.png" alt="First slide"">
+							<div class=" hero-overlay">
+						<div class="content">
+							<h2 class="content-header">Installationen mit Leidenschaft und Kompetenz.</h2>
+						</div>
+					</div>
+				</div>
 
-          <div class="flex-col-c-m wsize2 m-b-20">
-            <span class="l1-txt2 p-b-4 seconds">39</span>
-            <span class="m2-txt2">Sekunde(n)</span>
-          </div>
-        </div> -->
-      </div>
-    </div>
+				<div class="swiper-slide">
+					<img class="d-block w-100" src="./html/content/landing3/images/slide_4.png" alt="Second slide"">
+						<div class=" hero-overlay">
+					<div class="content">
+						<h2 class="content-header">Saubere Arbeit, perfekte Ergebnisse</h2>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="swiper-pagination"></div>
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+	</div>
+	</header>
+	</div>
+	<div id="Content">
+		<div class="content_wrapper clearfix">
+			<div class="sections_group">
+				<div class="section mcb-section mobile_small_padding" id="leistungen"
+					style="padding-top:40px;padding-bottom:30px;background-image:url(html/content/landing3/images/section_bg11.png);background-repeat:no-repeat;background-position:center top">
+					<div class="container">
+						<div class="row text-center">
+						
+							<div class="col-md-3">
+								<div class="placeholder">&nbsp;</div>
+							</div>
+							<div class="col-md-6">
+								<div style="margin-top: 20px; margin-bottom:50px;" class="column_attr clearfix align_center">
+									<h2>Unsere Leistungen</h2>
+								</div>
+								<!-- <hr class="no_line" style="margin:0 auto 50px"> -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="service-card-wrapper col-md-3 mb-4">
+								<div class="service-card text-center"
+									style="background-color:#fff;padding:20px 30px 25px;box-shadow: 0px 5px 13px 0px rgba(39,39,39,0.05); border-radius: 10px;">
+									<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+										<div class="image_wrapper">
+											<img class="scale-with-grid mw-100" src="html/content/landing3/images/gas-blue.png">
+										</div>
+									</div>
+									<hr class="no_line" style="margin:0 auto 30px">
+									<h3 style="color: #252525;">Gas</h3>
+									<p>Erfahrene Installation, Reparatur und Wartung von Gasleitungen und -geräten
+										für eine sichere und effiziente Gasinstallation.</p>
+								</div>
+							</div>
+							<div class="service-card-wrapper col-md-3 mb-4">
+								<div class="service-card text-center"
+									style="background-color:#fff;padding:20px 30px 25px;box-shadow: 0px 5px 13px 0px rgba(39,39,39,0.05); border-radius: 10px;">
+									<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+										<div class="image_wrapper">
+											<img class="scale-with-grid mw-100" src="html/content/landing3/images/water-blue.png">
+										</div>
+									</div>
+									<hr class="no_line" style="margin:0 auto 30px">
+									<h3 style="color: #252525;">Wasser</h3>
+									<p>Professionelle Sanitärinstallationen und -reparaturen für einen zuverlässigen
+										Wasserzulauf.</p>
+								</div>
+							</div>
+							<div class="service-card-wrapper col-md-3 mb-4">
+								<div class="service-card text-center"
+									style="background-color:#fff;padding:20px 30px 25px;box-shadow: 0px 5px 13px 0px rgba(39,39,39,0.05); border-radius: 10px;">
+									<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+										<div class="image_wrapper">
+											<img class="scale-with-grid mw-100" src="html/content/landing3/images/heating-blue.png">
+										</div>
+									</div>
+									<hr class="no_line" style="margin:0 auto 30px">
+									<h3 style="color: #252525;">Heizung</h3>
+									<p>Installation von effizienten und zuverlässigen Heizungssystemen,
+										einschließlich Wärmepumpen, Solaranlagen und Heizkesseln.</p>
+								</div>
+							</div>
+							<div class="service-card-wrapper col-md-3 mb-4">
+								<div class="service-card text-center"
+									style="background-color:#fff;padding:20px 30px 25px;box-shadow: 0px 5px 13px 0px rgba(39,39,39,0.05); border-radius: 10px;">
+									<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+										<div class="image_wrapper">
+											<img class="scale-with-grid mw-100" src="html/content/landing3/images/airing-blue.png">
+										</div>
+									</div>
+									<hr class="no_line" style="margin:0 auto 30px">
+									<h3 style="color: #252525;">Lüftung</h3>
+									<p>Professionelle Installationen von Lüftungssystemen für saubere Luft und ein
+										angenehmes Raumklima.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section"
+					style="background-image:url(html/content/interior6/images/interior6-section-bg1.png);background-repeat:repeat-x;background-position:center bottom">
+					<div class="container">
+						<div class="row" style="padding:0 0 0 10%">
+							<div class="col-12">
+								<div class="image_frame image_item no_link scale-with-grid no_border">
+									<div class="image_wrapper"><img class="scale-with-grid"
+											src="html/content/landing3/images/badezimmer5.png"
+											alt="badezimmer5" title="" width="1080" height="700" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section" style="padding-top:80px;padding-bottom:80px;background-color:#dde2e0">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5" style="margin-top:-360px" data-mobile="no-up">
+								<div class="image_frame image_item no_link scale-with-grid no_border">
+									<div class="image_wrapper"><img class="scale-with-grid"
+											src="html/content/landing3/images/badezimmer6.png"
+											alt="badezimmer6" title="" width="780" height="800" /> </div>
+								</div>
+							</div>
+							<div class="col-md-7">
+								<h2>Wir machen Ihr Badezimmer zur Wohlfühloase</h2>
+								<h4>Lassen Sie uns gemeinsam Ihr Traumbadezimmer realisieren</h4>
+							</div>
+							<div class="col-12">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="list_item lists_2 clearfix">
+											<div class="list_left list_image mb-2" style="display: flex; align-items: center; justify-content: center;"><img
+													src="html/content/landing3/images/quality.png"
+													class="scale-with-grid" /> </div>
+											<div class="list_right" style="display: flex; justify-content: center;">
+												<div class="desc">
+													<h4 style="width:300px; text-align: center;">Qualität und Service stehen bei uns an erster Stelle</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="column_attr clearfix">
+											<p>Wir bieten Ihnen alles für Ihr Badezimmer - von Siphons bis hin zu
+												Luxus-Komplettlösungen. Als Ihr zuverlässiger Partner im Bereich
+												alternativer Energietechniken helfen wir Ihnen dabei, energieeffiziente
+												Lösungen zu finden. Mit unserer 3D-Planung setzen wir Ihre Wünsche und
+												Vorstellungen perfekt um. Qualität und Service haben für uns höchste
+												Priorität, damit Sie rundum zufrieden sind. Lassen Sie uns gemeinsam ein
+												Badezimmer schaffen, das perfekt auf Sie abgestimmt ist.</p>
+										</div>
+									</div>
+									<div class="col-12">
+										<hr class="no_line" style="margin: 0 auto 40px auto" />
+									</div>
+									<div class="col-12">
+										<div class="button_align align_center"> <a class="button button_size_2"
+												href="#contact"><span class="button_label">Kontakt aufnehmen</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section mcb-section equal-height-wrap mobile_small_padding"
+					style="padding-top:90px;background-image:url(html/content/landing3/images/section-bg10.png);background-repeat:no-repeat;background-position:center top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="column mcb-column one column_image">
+									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+										<div class="image_wrapper">
+											<img class="scale-with-grid"
+												src="html/content/landing3/images/heating_image2.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<hr class="no_line" style="margin:0 auto 60px">
+								<div class="column mcb-column one column_column">
+									<h2>Wir bringen Wärme in Ihr Zuhause!</h2>
+									<p>Mit unseren Heizungsinstallationen sorgen wir für ein angenehm warmes und
+										gemütliches Zuhause. Unser Team erfahrener Installateure bietet maßgeschneiderte
+										Lösungen für Ihre Heizungsbedürfnisse, von Wärmepumpen bis hin zu Heizkesseln.
+										Wir arbeiten schnell und effizient, um eine reibungslose Installation zu
+										gewährleisten. Kontaktieren Sie uns für weitere Informationen oder ein Angebot.
+										Wir freuen uns darauf, Wärme in Ihr Zuhause zu bringen!</p>
+								</div>
+								<div class="column mcb-column one column_button"> <a class="button scroll button_size_2"
+										href="#contact"><span class="button_label">Jetzt kontaktieren</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-    <!--===============================================================================================-->
-    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="vendor/bootstrap/js/popper.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="vendor/select2/select2.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="vendor/countdowntime/moment.min.js"></script>
-    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
-    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-    <script src="vendor/countdowntime/countdowntime.js"></script>
-    <script>
-      $(".cd100").countdown100({
-        /*Set Endtime here*/
-        /*Endtime must be > current time*/
-        endtimeYear: 2023,
-        endtimeMonth: 4,
-        endtimeDate: 15,
-        endtimeHours: 18,
-        endtimeMinutes: 0,
-        endtimeSeconds: 0,
-        timeZone: "Europe/Vienna",
-        // ex:  timeZone: "America/New_York"
-        //go to " http://momentjs.com/timezone/ " to get timezone
-      });
-    </script>
-    <!--===============================================================================================-->
-    <script src="vendor/tilt/tilt.jquery.min.js"></script>
-    <script>
-      $(".js-tilt").tilt({
-        scale: 1.1,
-      });
-    </script>
-    <!--===============================================================================================-->
-    <script src="js/main.js"></script>
-  </body>
+				<div class="section mcb-section equal-height-wrap mobile_small_padding"
+					style="padding-top:140px;padding-bottom:50px;background-image:url(html/content/landing3/images/landing3-section-bg3.png);background-repeat:no-repeat;background-position:center">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 mobile-order-2" style="padding:30px 5% 0">
+								<div class="column mcb-column one column_column">
+									<div class="column_attr clearfix">
+										<h2>Ihr Wasserzulauf in besten Händen</h2>
+										<p>Unsere zuverlässigen und sicheren Wasserinstallationen bieten Ihnen Zugang zu
+											sauberem und gesundem Wasser in Ihrem Zuhause. Wir arbeiten schnell und
+											effizient, um eine reibungslose Installation zu garantieren und verwenden
+											dabei ausschließlich hochwertige Materialien und Werkzeuge. Unsere
+											maßgeschneiderten Lösungen werden individuell auf Ihre Sanitärbedürfnisse
+											abgestimmt. Kontaktieren Sie uns für weitere Informationen oder ein Angebot
+											und profitieren Sie von unserer langjährigen Erfahrung und Expertise in
+											Sachen Wasserinstallationen.
+										</p>
+									</div>
+								</div>
+								<div class="column mcb-column one column_button"> <a class="button scroll button_size_2"
+										href="#contact"><span class="button_label">Jetzt kontaktieren</span></a>
+									<hr class="no_line" style="margin:0 auto 30px">
+								</div>
+							</div>
+							<div class="col-md-6 mobile-order-1">
+								<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+									<div class="image_wrapper">
+										<img class="scale-with-grid" src="html/content/landing3/images/water_image2.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="section mcb-section full-width mobile_small_padding"
+						style="padding-top:130px;padding-bottom:40px">
+						<div class="image_frame image_item no_link scale-with-grid text-center no_border">
+							<div class="image_wrapper">
+								<img class="scale-with-grid" src="html/content/landing3/images/landing3-users-pic1.png">
+							</div>
+						</div>
+					</div> -->
+
+				<div class="section mcb-section mobile_small_padding" id="about"
+					style="display:none!important;background-color:#f9f9f9; padding-top:40px;padding-bottom:90px;background-image:url(html/content/landing3/images/landing3-section-bg4.png);background-repeat:no-repeat;background-position:center bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 text-center">
+								<hr class="no_line" style="margin:0 auto 30px">
+								<h2>FOKUS Installationen</br> Das sind wir</h2>
+								<hr class="no_line" style="margin:0 auto 60px">
+							</div>
+						</div>
+						<div class="row">
+							<!-- Wenn kein bild vom team, dann das verwenden -->
+							<!-- <div class="col-md-3">
+								<div class="placeholder">&nbsp;</div>
+							</div>
+							<div class="col-md-6">
+								<p> <span class="dropcap dropcap_circle size-2" style="background-color:#f2c8a1; color:#FFF;;">P</span> raesent nec magna ac pede. Mauris suscipit mauris. Nam erat id tortor. Phasellus at nibh nulla nulla, egestas quam eu. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+								<hr class="no_line" style="margin:0 auto 60px">
+							</div> -->
+							<div class="col-md-6">
+								<div class="image_wrapper">
+									<img class="scale-with-grid" src="html/content/landing3/images/landing3-about-pic1.png">
+								</div>
+								<hr class="no_line" style="margin:0 auto 70px">
+							</div>
+							<div class="col-md-6">
+								<div class="column_attr clearfix" style="padding:20px 8%;">
+									<p>Als erfahrene Installateure mit umfangreichem Wissen und Know-how in der
+										Branche haben wir im Laufe der letzten 10 Jahre zahlreiche Erfahrungen
+										gesammelt. Wir haben uns auf Sanitär- und Heizungsinstallationen, Wartung
+										und Notfallreparaturen spezialisiert und bieten unseren Kunden erstklassige
+										Dienstleistungen zu fairen Preisen an. Bei uns hat Kundenzufriedenheit
+										höchste Priorität und wir sind stolz darauf, unseren Kunden jederzeit einen
+										hervorragenden Kundenservice zu bieten. Wenn Sie unsere Dienstleistungen
+										benötigen, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf,
+										Ihnen dabei zu helfen, Ihre Sanitär- und Heizungsbedürfnisse zu erfüllen."
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section mcb-section bg-contain mobile_small_padding" id="features"
+					style="padding-top:40px;padding-bottom:160px;background-image:url(html/content/landing3/images/section_bg5.png);background-repeat:no-repeat;background-position:center top">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 text-center">
+							
+								<div class="column">
+									<hr class="no_line" style="margin:0 auto 20px">
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="placeholder">&nbsp;</div>
+							</div>
+							<div class="col-md-8 text-center">
+								<h2>Wir wissen, dass es viele Installateur-Firmen gibt, aus denen Sie wählen können.
+									Hier sind jedoch einige Gründe, warum Sie uns als Ihren Installationspartner
+									wählen sollten.</h2>
+							</div>
+							<div class="col-12">
+								<hr class="no_line" style="margin:0 auto 80px">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 mb-4">
+								<div class="feature_box">
+									<div class="feature_box_wrapper" style="background-color:#f5f5f5">
+										<div class="desc_wrapper">
+											<h4>Kundenzufriedenheit</h4>
+											<div class="desc"> <span style="color: #06325e;">Höchste Priorität und
+													hervorragender Kundenservice.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="feature_box">
+									<div class="feature_box_wrapper" style="background-color:#f5f5f5">
+										<div class="desc_wrapper">
+											<h4>Erfahrung & Know-how:</h4>
+											<div class="desc"> <span style="color: #06325e;">Umfangreiches Wissen
+													und maßgeschneiderte Lösungen.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<hr class="no_line" style="margin:0 auto 30px">
+							</div>
+							<div class="col-md-6 mb-4">
+								<div class="feature_box">
+									<div class="feature_box_wrapper" style="background-color:#f5f5f5">
+										<div class="desc_wrapper">
+											<h4>Fairness & Transparenz:</h4>
+											<div class="desc"> <span style="color: #06325e;">Faire Preise und
+													transparenter Installationsprozess.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="feature_box">
+									<div class="feature_box_wrapper" style="background-color:#f5f5f5">
+										<div class="desc_wrapper">
+											<h4>Zuverlässigkeit</h4>
+											<div class="desc"> <span style="color: #06325e;">Wir halten unsere
+													Termine und liefern pünktlich und zuverlässig.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section mcb-section bg-cover mobile_small_padding" id="clients"
+					style="padding-top:130px;background-color:#f9f9f9;display: none!important;">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="column_attr clearfix mobile_align_center">
+									<h2>Unsere Partner</h2>
+								</div>
+								<hr class="no_line" style="margin:0 auto 40px">
+							</div>
+							<div class="col-md-4">
+								<div class="placeholder">&nbsp;</div>
+							</div>
+							<div class="col-12">
+								<hr class="no_line" style="margin:0 auto 0px">
+							</div>
+							<div class="col-md-3 mb-4">
+								<div class="hover_color align_" style="background-color:#e8e8e8;"
+									ontouchstart="this.classList.toggle('hover');">
+									<div class="hover_color_bg" style="background-color:#f4f4f4;border-width:2px;">
+										<div class="hover_color_wrapper" style="padding:10px 20px;">
+											<img src="html/content/landing3/images/landing3-features-logo1.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 mb-4">
+								<div class="hover_color align_" style="background-color:#e8e8e8;"
+									ontouchstart="this.classList.toggle('hover');">
+									<div class="hover_color_bg" style="background-color:#f4f4f4;border-width:2px;">
+										<div class="hover_color_wrapper" style="padding:10px 20px;">
+											<img src="html/content/landing3/images/landing3-features-logo2.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 mb-4">
+								<div class="hover_color align_" style="background-color:#e8e8e8;"
+									ontouchstart="this.classList.toggle('hover');">
+									<div class="hover_color_bg" style="background-color:#f4f4f4;border-width:2px;">
+										<div class="hover_color_wrapper" style="padding:10px 20px;">
+											<img src="html/content/landing3/images/landing3-features-logo3.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 mb-4">
+								<div class="hover_color align_" style="background-color:#e8e8e8;"
+									ontouchstart="this.classList.toggle('hover');">
+									<div class="hover_color_bg" style="background-color:#f4f4f4;border-width:2px;">
+										<div class="hover_color_wrapper" style="padding:10px 20px;">
+											<img src="html/content/landing3/images/landing3-features-logo4.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<hr class="no_line" style="margin:0 auto 30px">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section mcb-section no-margin-h no-margin-v full-width mobile_small_padding d-none"
+					style="padding-top:40px;background-color:#f9f9f9">
+					<div class="section_wrapper mcb-section-inner">
+						<div class="text-center">
+							<div class="column mcb-column one column_image">
+								<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+									<div class="image_wrapper mb-20">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section mcb-section no-margin-h no-margin-v full-width" style="background-color:#d1e5e7">
+					<div class="section_wrapper mcb-section-inner">
+						<div class="text-center">
+							<div class="column mcb-column one column_image">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- FAQ -->
+				<div class="section mcb-section mobile_small_padding" id="faq"
+					style="padding-top:40px;padding-bottom:70px">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1">
+								<div class="column mcb-column one column_placeholder">
+									<div class="placeholder">&nbsp;</div>
+								</div>
+							</div>
+							<div class="col-md-10">
+								<hr class="no_line" style="margin:0 auto 30px">
+								<div class="text-center">
+									<div class="column_attr clearfix align_center">
+										<h2>FAQ's</h2>
+									</div>
+								</div>
+								<hr class="no_line" style="margin:0 auto 30px">
+								<div class="column one column_faq">
+									<div class="faq">
+										<div class="mfn-acc faq_wrapper open1st">
+											<div class="question">
+												<div class="title"> <span class="num">1</span><i
+														class="icon-plus acc-icon-plus"></i><i
+														class="icon-minus acc-icon-minus"></i>Was sind Ihre
+													Öffnungszeiten?</div>
+												<div class="answer"> <span style="color: #252525;">Unsere Öffnungszeiten
+														sind von Montag bis Freitag von 8:00 bis 17:00 Uhr. Am
+														Wochenende und an Feiertagen sind wir geschlossen.</span>
+												</div>
+											</div>
+											<div class="question">
+												<div class="title"> <span class="num">2</span><i
+														class="icon-plus acc-icon-plus"></i><i
+														class="icon-minus acc-icon-minus"></i>Bieten Sie Notdienste
+													an?</div>
+												<div class="answer"> <span style="color: #252525;">Ja, wir bieten
+														einen Notdienst an, der rund um die Uhr verfügbar ist. Bitte
+														rufen Sie uns unter unserer Notfallnummer an, wenn Sie Hilfe
+														benötigen.</span>
+												</div>
+											</div>
+											<div class="question">
+												<div class="title"> <span class="num">3</span><i
+														class="icon-plus acc-icon-plus"></i><i
+														class="icon-minus acc-icon-minus"></i>Wie viel kostet eine
+													typische Serviceleistung?</div>
+												<div class="answer"> <span style="color: #252525;">Die Kosten für
+														unsere Dienstleistungen variieren je nach Art und Umfang der
+														Arbeit. Wir bieten jedoch kostenlose Kostenvoranschläge und
+														Preisangebote, bevor wir mit der Arbeit beginnen, damit Sie
+														immer wissen, was Sie erwartet.</span>
+												</div>
+											</div>
+											<div class="question">
+												<div class="title"> <span class="num">4</span><i
+														class="icon-plus acc-icon-plus"></i><i
+														class="icon-minus acc-icon-minus"></i>Welche
+													Zahlungsmethoden akzeptieren Sie?</div>
+												<div class="answer"> <span style="color: #252525;">Wir akzeptieren
+														eine Vielzahl von Zahlungsmethoden, einschließlich Bargeld,
+														Kreditkarten und Überweisungen. Bitte sprechen Sie mit
+														unserem Kundendienst, um die für Sie am besten geeignete
+														Zahlungsmethode zu vereinbaren.</span>
+												</div>
+											</div>
+											<div class="question">
+												<div class="title"> <span class="num">5</span><i
+														class="icon-plus acc-icon-plus"></i><i
+														class="icon-minus acc-icon-minus"></i>Kann ich meine alte
+													Heizungsanlage durch eine neue ersetzen lassen?</div>
+												<div class="answer"> <span style="color: #252525;">Ja, eine alte
+														Heizungsanlage kann durch eine neue und effizientere ersetzt
+														werden. Unsere Installateure können Ihre alte Anlage
+														demontieren, die neue Anlage installieren und sicherstellen,
+														dass sie ordnungsgemäß funktioniert. Wir bieten auch
+														Garantien für unsere Arbeit und können Ihnen helfen, ein
+														energieeffizientes Heizsystem auszuwählen, das Ihre
+														Heizkosten senkt und gleichzeitig die Umwelt schützt.</span>
+												</div>
+											</div>
+											<div class="question">
+												<div class="title"> <span class="num">6</span><i
+														class="icon-plus acc-icon-plus"></i><i
+														class="icon-minus acc-icon-minus"></i>Wie finde ich das
+													richtige Heizsystem für mein Zuhause?</div>
+												<div class="answer"> <span style="color: #252525;">Die Wahl des
+														richtigen Heizsystems hängt von vielen Faktoren ab, darunter
+														die Größe Ihres Hauses, Ihre spezifischen Heizbedürfnisse
+														und Ihr Budget. Wir helfen Ihnen gerne bei der Auswahl des
+														besten Heizsystems für Ihr Zuhause, basierend auf Ihren
+														individuellen Anforderungen und Ihrem Budget. </span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end FAQ -->
+
+				<div class="section mcb-section bg-cover mobile_small_padding" id="contact"
+					style="padding-top:100px;padding-bottom:100px;background-color:#dde2e0;background-image:url(html/content/landing3/images/landing3-section-bg8.png);background-repeat:no-repeat;background-position:center top">
+					<div class="container">
+							<div class="row">
+								<div class="col-md-4" >
+									<div class="column mcb-column one column_image">
+										<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+											<div class="image_wrapper">
+												<img class="scale-with-grid"
+													src="html/content/landing3/images/contact2.png">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8">
+									<div class="row">
+										<div class="col-md-7">
+											<hr class="no_line" style="margin:0 auto 50px">
+											<h2>Kontaktieren Sie uns</h2>
+											<hr class="no_line" style="margin:0 auto 50px">
+										</div>
+										<div class="col-md-7">
+											<div class="column_attr clearfix">
+												<h3 class="mt-10" style="margin:0; margin-top:10px; margin-bottom: 20px;"> <a href="mailto:info@fokus-installationen.at">info@fokus-instalaltionen.at</a></h3>
+												<h3 style="margin:0;"> <a href="tel:+43 676 050 022">+43 676 050 022</a></h3>
+												<hr class="no_line" style="margin:0 auto 30px">
+												<p> Haben Sie Fragen zur Installation oder benötigen Sie schnelle Hilfe? Wir sind rund um die Uhr für Sie da!
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<hr class="no_line" style="margin:0 auto 30px">
+							</div>
+					</div>
+				</div>
+
+				
+				<div class="section mcb-section full-width" style="padding-left:5%;padding-right:5%">
+					<div class="section_wrapper mcb-section-inner">
+						<div class="row" style="height: 0;">
+							<div class="col-md-3" style="margin-top:-223px" data-tablet="no-up" data-mobile="no-up">
+
+							</div>
+							<div class="col-md-6">
+								<div class="column mcb-column one column_placeholder">
+									<div class="placeholder">&nbsp;</div>
+								</div>
+							</div>
+							<div class="col-md-3" style="margin-top:-223px" data-tablet="no-up" data-mobile="no-up">
+								<div class="column mcb-column one column_image">
+									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+										<div class="image_wrapper">
+											<img class="waterdrop-footer scale-with-grid"
+												src="html/content/landing3/images/waterdrops330x333.png">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="Footer" class="clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<hr class="no_line" style="margin:0 auto 100px">
+				</div>
+				<div class="col-md-4">
+					<img src="./html/content/landing3/images/fokus_logo.png" alt="" width="200px">
+					<hr class="no_line" style="margin:0 auto 20px">
+					<p>FOKUS Installationen OG
+						<br>Innsbruckerstraße 50
+						<br>6130 Schwaz
+						<br>Österreich</p>
+					<p class="mb-0"> <a href="tel:+4367676767"> +43 (0) 676 767 76</a></p>
+					<p> <a href="html/content/landing3/info@fokus-installationen.at"><span>info@fokus-installationen.at</span></a>
+					</p>
+				</div>
+				
+				<div class="col-md-4">
+					<h4>Unsere Öffnungszeiten</h4>
+					<hr class="no_line" style="margin:0 auto 20px">
+					<p class="line-height-2">MO - DO:
+						<br>08:00 - 12:00 & 13:00 - 17:00
+						<br>FR: 08:00 - 12:00</p>
+				</div>
+				<div class="col-md-4">
+					<h4>Info</h4>
+					<hr class="no_line" style="margin:0 auto 20px">
+					<ul class="list-unstyled footer-links">
+						<li><a href="impressum.html">Impressum</a>
+						</li>
+						<li><a href="datenschutz.html">Datenschutz</a>
+						</li>
+						<li><a href="#contact">Kontakt</a>
+						</li>
+					</ul>
+				</div>
+				<!-- <div class="col-md-3 text-right">
+					<div class="image_wrapper">
+						<img class="scale-with-grid" src="html/content/landing3/images/landing3-footer-bg1.png">
+					</div>
+				</div> -->
+				<div class="col-12">
+					<hr class="no_line" style="margin:0 auto 80px">
+				</div>
+			</div>
+		</div>
+		<div class="footer_copy">
+			<div class="container">
+				<div class="column one"> <a id="back_to_top" class="footer_button"  href><i
+							class="icon-up-open-big"></i></a>
+					<div class="copyright">
+						<p style="font-size: 14px; margin-bottom: 0;">&copy; 2023 Fokus-Installationen</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<div id="Side_slide" class="right dark" data-width="250">
+		<div class="close-wrapper"> <a href="#" class="close"><i class="icon-cancel-fine"></i></a>
+		</div>
+		<div class="menu_wrapper"></div>
+		<div class="extras">
+			<div class="extras-wrapper"></div>
+		</div>
+	</div>
+	<div id="body_overlay"></div>
+	<!-- JS -->
+	<script src="html/js/jquery-3.6.0.min.js"></script>
+	<script src="html/js/jquery-migrate-3.4.0.min.js"></script>
+	<script src="html/js/mfn.menu.js"></script>
+	<script src="html/js/jquery.plugins.js"></script>
+	<script src="html/js/jquery.jplayer.min.js"></script>
+	<script src="html/js/animations/animations.js"></script>
+	<script src="html/js/translate3d.js"></script>
+	<script src="html/js/scripts.js"></script>
+	<script src="html/js/bootstrap.min.js"></script>
+	<script src="html/js/email.js"></script>
+	<script src="html/plugins/rs-plugin-6.custom/js/revolution.tools.min.js"></script>
+	<script src="html/plugins/rs-plugin-6.custom/js/rs6.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			autoplay: {
+				delay: 3500
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				dynamicBullets: true,
+			},
+		});
+	</script>
+
+</body>
+
 </html>

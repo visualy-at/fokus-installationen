@@ -28,6 +28,9 @@
 	.image_wrapper {
 		margin-top: 0!important;
 	}
+	.waterdrop-footer {
+		display: none;
+	}
 }
 .dropcap.transparent {
 	background: none!important;
@@ -98,6 +101,7 @@ body.mobile-side-slide {
 	overflow: auto;
 	border-bottom-width: 60px;
 	border-bottom-style: solid;
+	box-shadow: #1f1f1f 0px 0px 18px -6px;
 	z-index: 9003;
 }
 /* border-bottom:60px - mobile fallback */
@@ -530,8 +534,6 @@ footer ul {
 /* FAQ */
 
 .style-simple .faq .question {
-	border-width: 0 0 0 1px;
-	border-style: solid;
 	margin-bottom: 0;
 	position: relative;
 	background: none;
@@ -1135,6 +1137,9 @@ h6 {
 	color: #65666C!important;
 	background-color: transparent;
 	box-shadow: none!important;
+	order: 2;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .footer_button:after {
 	display: none!important;
@@ -1223,7 +1228,7 @@ h6 {
 }
 @media only screen and (max-width: 767px) {
 	#Top_bar a.responsive-menu-toggle {
-		top: 20px;
+		top: 13px;
 		right: 0px;
 	}
 	.mobile-header-mini #Top_bar #logo {
@@ -2595,11 +2600,11 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 	background: transparent;
 }
 #Side_slide {
-	background-color: #0f2728;
-	border-color: #0f2728;
+	background-color: #dde2e0;
+	border-color: #dde2e0;
 }
 #Side_slide, #Side_slide .search-wrapper input.field, #Side_slide a:not(.action_button), #Side_slide #menu ul li.submenu .menu-toggle {
-	color: #A6A6A6;
+	color: #1f1f1f;
 }
 #Side_slide a:not(.action_button):hover, #Side_slide a.active, #Side_slide #menu ul li.hover>.menu-toggle {
 	color: #FFFFFF;
@@ -2657,6 +2662,14 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 }
 #Footer .footer_copy {
 	border-top-color: rgba(0, 0, 0, 0.1);
+}
+#Footer .footer_copy .column.one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#Footer .footer-links li {
+	padding: 5px 0;
 }
 #Sliding-top, #Sliding-top .widget_recent_entries ul li a {
 	color: #cccccc;
