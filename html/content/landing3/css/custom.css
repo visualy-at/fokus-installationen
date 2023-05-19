@@ -145,6 +145,7 @@ p {
 
 /*cards */
 .service-card {
+    height: 100%;
 }
 .feature_box_wrapper {
     min-height: 138px;
@@ -198,4 +199,26 @@ p {
 
 .line-height-2 {
     line-height: 2em !important;
+}
+
+@media only screen and (max-width: 1239px) {
+    .left-image-container {
+        margin-top: -270px !important;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .left-image-container {
+        margin-top: -150px !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .mobile-p-160 {
+        padding-top: 160px !important;
+    }
+    .mobile-mb-100 {
+        margin-bottom: -100px !important;
+    }
 }
