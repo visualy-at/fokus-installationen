@@ -63,10 +63,22 @@
 			object-fit: cover;
 			display: block;
 		}
+		.referenzen-slider .swiper-pagination {
+			bottom: 10px !important;
+			display: flex;
+			justify-content: center;
+			gap: 8px;
+		}
 		.referenzen-slider .swiper-pagination-bullet {
-			background: #252525;
+			width: 32px;
+			height: 3px;
+			border-radius: 2px;
+			background: rgba(37, 37, 37, 0.3);
+			opacity: 1;
+			transition: width 0.3s ease;
 		}
 		.referenzen-slider .swiper-pagination-bullet-active {
+			width: 48px;
 			background: #252525;
 		}
 		.referenzen-slider .swiper-button-prev,
@@ -162,7 +174,7 @@
 
 
 
-				<div id="hero-slider" class="swiper mySwiper" style="height: auto !important;">
+				<div id="hero-slider" class="swiper mySwiper" style="height: 100vh; overflow: hidden;">
 					<div class="swiper-wrapper">
 
 						<div class="swiper-slide">
@@ -192,9 +204,7 @@
 				</div>
 		</div>
 	</div>
-	<div class="swiper-pagination"></div>
-	<div class="swiper-button-next"></div>
-	<div class="swiper-button-prev"></div>
+	<div class="swiper-pagination hero-pagination"></div>
 	</div>
 	</header>
 	</div>
@@ -958,16 +968,12 @@
 
 	<script>
 		var swiper = new Swiper(".mySwiper", {
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
 			autoplay: {
 				delay: 3500
 			},
 			pagination: {
-				el: ".swiper-pagination",
-				dynamicBullets: true,
+				el: ".hero-pagination",
+				clickable: true,
 			},
 		});
 
